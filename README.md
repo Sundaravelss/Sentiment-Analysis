@@ -7,4 +7,4 @@ After importing the libraries, I have embedded the review texts using word embed
 in keras. After the embedding layer, I have added a LSTM layer with 128 units and a dropout of 0.2 for regularization and then added a dense
 layer with sigmoid activation function to give the output of 0(negative) or 1(positive). The loss function used is binary_crossentropy and
 optimizer is rmsprop. With this simple keras model, I could achieve a accuracy of 87%.
-I have also tried CuDNNLSTM and CuDNNGRU which trains much faster using GPUs and yields good accuracy.
+I have also tried CuDNNLSTM and CuDNNGRU which trains much faster using GPUs.
